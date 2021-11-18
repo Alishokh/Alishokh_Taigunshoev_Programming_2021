@@ -23,7 +23,7 @@ namespace ExpenseManager
         {
 
             string path1 = this.textBox1.Text;
-            string path = @"E:\Фриланс\Form\ExpenseManager\ExpenseManager\bin\Debug\TextFile.txt";
+            string path = @"d:\MyComp\Form\ExpenseManager\ExpenseManager\bin\Debug\TextFile.txt";
 
             double sum = 0;
             List<string> categories = new List<string>();
