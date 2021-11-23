@@ -12,6 +12,7 @@ html{
 a{
     text-decoration: none;
 }
+
 #first .container {
     
     width: 100%;
@@ -25,9 +26,13 @@ a{
     background-image: url(https://github.com/Alishokh/Alishokh_Taigunshoev_Programming_2021/blob/main/Create%20HTML,%20CSS,%20PHP,%20JS/img/RZZF2GtJ-bugatti-la-voiture-noire-car-design_dezeen_2364_hero-1-1200x675.jpg?raw=true) ;
     background-size: cover;
     background-position: top center;
-    position: relative;
+    position: relative;    
     z-index: 1;
 }
+
+    
+    
+
 #first::after {
     content: '';
     position: absolute;
@@ -90,40 +95,52 @@ a{
 #second{
     margin:100;
     padding: 250px;
-    background-color: rgb(233, 226, 216);
-    border: 2px solid brown;
+    background-image: url("https://github.com/Alishokh/Alishokh_Taigunshoev_Programming_2021/blob/main/Create%20HTML,%20CSS,%20PHP,%20JS/img/background.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
-    position: relative;
+    
 }
+
 #second h1{
     display: flex;
     justify-content: center;
     font-size: 20px;
     margin-bottom: 20px;
 }
+#second h2{
+    color: rgb(102, 22, 22);
+}
 #second p{
-    color: rgb(80, 73, 73);
+    color: brown;
     margin: 10px 10px 10px 10px;
     
     font-size: 12px;
     font-family: bolder;
 }
+#second .section-title{
+    font-size: 40px;
+    color: brown;
+}
 /*end second section*/
 /*third section*/
 #third{
-    background-color: rgb(233, 226, 216);
+    background-image: url(https://github.com/Alishokh/Alishokh_Taigunshoev_Programming_2021/blob/main/Create%20HTML,%20CSS,%20PHP,%20JS/img/background.jpg?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #third .new_container p{
     text-align: center;
     font-size: 12px;
     margin-top: 20px;
-    color: rgb(80, 73, 73);  
+    color: rgb(180, 111, 111);  
     
 }
 #third .new_container h1{
     text-align: center;
     padding-top: 90px;
+    color: brown;
 }
 #third .card_top {
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
@@ -132,35 +149,35 @@ a{
     display:flex;
     margin-top: 20px;
     margin-left: 25%;
-    
+    color: rgb(182, 117, 117);
   }
   #third .card_bot {
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 50%;
     display:flex;
     margin-top: 20px;
     margin-left: 25%;
-    
+    color: rgb(182, 117, 117);
   }
   
  #third .card1:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.2);
   }
   #third .card2:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.2);
   }
   #third .card3:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.2);
   }
   #third .card4:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.2);
   }
   #third .card5:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.2);
   }
   #third .card6:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.2);
   }
  #third .container {
     padding: 50px 16px;
@@ -243,9 +260,89 @@ a{
     margin-left: 25%;
     border: 0.05px solid brown;
 }
-/*third section*/
-
-
+/*end third section*/
+/*Fourth section*/
+#fourth{
+    background-image: url("https://github.com/Alishokh/Alishokh_Taigunshoev_Programming_2021/blob/main/Create%20HTML,%20CSS,%20PHP,%20JS/img/background.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fourth .container{
+    
+}
+#fourth .container .card_map{
+   
+    padding-top: 50px ;
+    display: flex;
+    align-items: stretch;
+    padding-left: 300px;
+    color: rgb(175, 127, 127);
+}
+#fourth .container .card_map2{
+   
+    color: rgb(175, 127, 127);
+    padding-top: 50px ;
+    display: flex;
+    align-items: stretch;
+    padding-left: 300px;
+}
+#fourth .container .card_map3{
+    color: rgb(175, 127, 127);
+    padding-top: 50px ;
+    display: flex;
+    align-items: stretch;
+    padding-left: 300px;
+}
+.card_map img{
+    width: 100%;
+    border-radius: 20%;
+    justify-content: center;
+    margin-left: -0.01px;
+    margin-top: -0.5px;
+}
+.card_map2 img{
+    width: 100%;
+    border-radius: 20%;
+    justify-content: center;
+    margin-left: -0.01px;
+    margin-top: -0.5px;
+}
+.card_map3 img{
+    width: 100%;
+    border-radius: 20%;
+    justify-content: center;
+    margin-left: -0.01px;
+    margin-top: -0.5px;
+}
+.card_box{
+    width: 170px;
+    height: 250px;
+    border-radius:20%;
+    border: 1px solid brown;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 80px;
+}
+#fourth .button{
+    background-color: rgb(231, 220, 220);
+    border-radius: 20%;
+    width: 40%;
+    border: 1px solid brown;
+    margin-top: 20px;
+}
+#fourth h1{
+    text-align: center;
+    padding: 20px ;
+    color: rgb(189, 64, 64);
+}
+#fourth p{
+    text-align: center;
+    color: rgb(175, 127, 127);
+}
+/*End Fourth section*/
+/*fifth section*/
+/*end fifth section*/
 
 
 
