@@ -10,17 +10,15 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 a{
-    text-decoration: none;
+    text-align: right;
+    
 }
 
 #first .container {
-    
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-height: 100vh;
+
 }
+
 /* first section*/
 #first {
     background-image: url(https://github.com/Alishokh/Alishokh_Taigunshoev_Programming_2021/blob/main/Create%20HTML,%20CSS,%20PHP,%20JS/img/RZZF2GtJ-bugatti-la-voiture-noire-car-design_dezeen_2364_hero-1-1200x675.jpg?raw=true) ;
@@ -45,7 +43,9 @@ a{
     z-index: -1;
 }
 #first h1 {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: fit-content;
     font-size: 4rem;
     position: relative;
@@ -63,10 +63,11 @@ a{
 }
 #first .cta{
     display: inline-block;
-    padding: 10px 30px;
-    color: red;
+    padding: 8px;
+    margin-left: 5px;
+    color: rgb(190, 42, 42);
     background-color: transparent;
-    border: 2px solid red;
+    border: 1px solid red;
     font-size: 1rem;
     margin-top: 0;
     transition: 3s ease;
@@ -341,8 +342,17 @@ a{
     color: rgb(175, 127, 127);
 }
 /*End Fourth section*/
-/*fifth section*/
-/*end fifth section*/
+/*footer section*/
+footer{
+    padding-top: 5%;
+    text-align: center;
+    background-image: url(https://github.com/Alishokh/Alishokh_Taigunshoev_Programming_2021/blob/main/Create%20HTML,%20CSS,%20PHP,%20JS/img/bot_background.jpg?raw=true);
+    height: 10cm;
+}
+footer p{
+    color: brown;
+}
+/*end footer section*/
 
 
 

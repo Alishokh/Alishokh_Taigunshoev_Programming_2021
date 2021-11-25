@@ -1,4 +1,11 @@
-.conteiner
-{
-    border: black solid 1px;
+.child{
+ border: 1px solid black;
+ display: flex;
+
+ flex-direction: column;
+ width: 500px;
+ height: 400px;
+ justify-content: space-between;
+padding-left: 50px
+
 }
